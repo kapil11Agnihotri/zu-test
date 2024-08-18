@@ -56,8 +56,8 @@ const CourseWorkCard: React.FC<CourseWorkCardProps> = ({
         <Image
           width={130}
           height={150}
-          src="/media/template.png"
-          alt="template"
+          src="/media/Template.png"
+          alt="Template"
         />
       </div>
       <div className="w-3/4 px-4 ">
@@ -72,7 +72,7 @@ const CourseWorkCard: React.FC<CourseWorkCardProps> = ({
                 width={15}
                 height={15}
                 src="/media/CardProfileIcon.svg"
-                alt="template"
+                alt="Template"
               />
             </span>
             <span className="truncate">{subject} HL</span>
@@ -83,7 +83,7 @@ const CourseWorkCard: React.FC<CourseWorkCardProps> = ({
                 width={15}
                 height={15}
                 src="/media/CardClockIcon.svg"
-                alt="template"
+                alt="Template"
               />
             </span>
             <span>{timeToRead} min read</span>
@@ -94,7 +94,7 @@ const CourseWorkCard: React.FC<CourseWorkCardProps> = ({
                 width={15}
                 height={15}
                 src="/media/CardPaperIcon.svg"
-                alt="template"
+                alt="Template"
               />
             </span>
             <span>{noOfWords} words</span>
@@ -105,7 +105,7 @@ const CourseWorkCard: React.FC<CourseWorkCardProps> = ({
                 width={15}
                 height={15}
                 src="/media/CardRatingIcon.svg"
-                alt="template"
+                alt="Template"
               />
             </span>
             <span>{rating}/7</span>
@@ -116,7 +116,7 @@ const CourseWorkCard: React.FC<CourseWorkCardProps> = ({
                 width={15}
                 height={15}
                 src="/media/CardLangIcon.svg"
-                alt="template"
+                alt="Template"
               />
             </span>
             <span>{lang}</span>
