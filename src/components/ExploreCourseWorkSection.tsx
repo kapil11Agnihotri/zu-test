@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import CourseWorkCard from "@/components/CourseWorkCard.tsx";
+import CourseWorkCard from "@/components/CourseWorkCard";
 
 function ExploreCourseWorkSection() {
   interface CourseWorkData {
