@@ -115,7 +115,7 @@ const CourseWorkCard: React.FC<CourseWorkCardProps> = ({
               <Image
                 width={15}
                 height={15}
-                src="/media/CardLangIcon.svg"
+                src="/media/CardlangIcon.svg"
                 alt="Template"
               />
             </span>
