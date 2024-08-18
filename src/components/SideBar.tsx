@@ -13,8 +13,7 @@ export default function SideBar() {
       <div className="flex gap-4 flex-col">
         <Link
           href=""
-          className="w-10 h-10 rounded-full flex justify-center items-center"
-          style={{ backgroundColor: "#6947BF" }}
+          className=" bg-[#6947BF] w-10 h-10 rounded-full flex justify-center items-center"
         >
           <Image
             width={25}

@@ -4,7 +4,9 @@ import MyCourseWorkSection from "@/components/MyCourseWorkSection";
 import RightSideBar from "@/components/RightSideBar";
 import HeroSeciton from "@/components/HeroSeciton";
 
+
 export default function Home() {
+
   return (
     <div className="flex flex-row">
       <div

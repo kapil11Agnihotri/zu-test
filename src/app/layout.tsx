@@ -9,6 +9,16 @@ export const metadata: Metadata = {
   description: "Evaluate your x with a single click",
 };
 
+const startWorker = async () => {
+    const { worker } = await import('../mocks/browser');
+    worker.start();
+};
+
+// Only start the worker in development mode
+if (typeof window !== 'undefined' && process.env.NODE_ENV === 'development') {
+  startWorker();
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
